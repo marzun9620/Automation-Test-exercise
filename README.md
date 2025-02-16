@@ -26,5 +26,27 @@ To get started, clone this repository to your local machine.
 ```bash
 git clone https://github.com/<your-username>/playwright-ecommerce-automation.git
 cd playwright-ecommerce-automation
+```
+### 2. Install all dependencies
+```bash
+npm install
+npx playwright install
+npm install @playwright/test
+```
+### 2. Run the test file
+
+```bash
+npx playwright test automation.spec.js --headed
+```
+This will run the test with a visible browser window (headed mode). If you prefer to run it without the browser window (headless mode), use:
+
+```bash
+npx playwright test automation.spec.js --headless
+```
+### 3. Test Output
+
+After running the tests, check the console output for logs, including any errors. If the test involves file downloads (e.g., the invoice), the file will be saved in your system's default download location.
+
+
 
 

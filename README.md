@@ -1,6 +1,6 @@
 # E-commerce Automation with Playwright
 
-This project is an end-to-end test automation suite for an e-commerce website using Playwright. It automates the following user journey:
+This project is an end-to-end test automation suite for an e-commerce website(https://automationexercise.com) using Playwright. It automates the following user journey:
 
 1. **Sign Up**: Creating a new user account.
 2. **Login**: Logging into the user account.
